@@ -1,4 +1,4 @@
-# RapidMCP Self host
+# RapidMCP - Self-hosted edition
 
 https://rapid-mcp.com
 
