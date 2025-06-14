@@ -11,6 +11,16 @@ Convert your REST API into MCP Servers in minutes!
 Transform your existing APIs into an MCP in minutes, with zero code changes. Simply plug in your API, and instantly convert it to an AI-agent ready MCP server - no backend modifications needed.
 
 
+## Demo
+
+![Home](/assets/screen-1.png)
+
+![Login](/assets/screen-2.png)
+
+![Severs](/assets/screen-3.png)
+
+
+
 ## Architecture
 
 Deployment option is to run a docker compose on your own VM to run Rapid MCP in your infra.
