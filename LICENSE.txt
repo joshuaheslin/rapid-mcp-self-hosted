@@ -1,0 +1,28 @@
+END USER LICENSE AGREEMENT (EULA)
+
+Copyright © 2025 RapidMCP
+
+This software is proprietary and is licensed, not sold.
+
+By accessing, downloading, installing, or using this software, you agree to the terms of this End User License Agreement. If you do not agree, you are not permitted to use this software.
+
+1. LICENSE
+You are granted a non-transferable, non-exclusive, revocable license to install and use this software **only** under a valid commercial agreement obtained from Your Company.
+
+2. RESTRICTIONS
+You may NOT:
+- Use this software without a paid license.
+- Copy, modify, distribute, or sublicense the software.
+- Reverse engineer, decompile, or disassemble any part of the software.
+- Use the software for competitive analysis or commercial gain without a license.
+
+3. OWNERSHIP
+All rights, title, and interest in and to this software remain the exclusive property of Your Company.
+
+4. TERMINATION
+This license is immediately terminated upon violation of any terms. Unauthorized use may result in legal action and damages.
+
+5. DISCLAIMER
+This software is provided “as is” without warranties. In no event shall Your Company be liable for any damages arising from the use of this software.
+
+FOR COMMERCIAL LICENSES, CONTACT: rapid-mcp.com
