@@ -30,16 +30,32 @@ If you are familiar with docker compose - this should be a piece of cake.
 
 ## Basic setup
 
-When you are on the vm
+### 1 Pull the docker compose and update env
+
+- When you are on the vm, run the following.
+- Ensure to update `EE_LICENSE_KEY`
 
 ```
-git pull https://github.com/joshuaheslin/rapid-mcp-self-hosted.git
+git clone https://github.com/joshuaheslin/rapid-mcp-self-hosted.git
 
 cd rapid-mcp-self-hosted/docker-compose
 
 cp .env.example .env 
-# (and update as needed)
 
+# (and update as needed)
+```
+
+
+### 2 Authenticate docker image pull
+
+- Now, you will need to authenticate to pull the images.
+- We will provide instructions on this.
+
+### 3 Start services
+
+- Run the following
+
+```
 docker compose up -d
 ```
 
