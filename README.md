@@ -68,7 +68,7 @@ drwxr-xr-x@ 10 root  staff   320 Jun 14 17:52 ..
 Use docker login to authentication with the container registry. You only have to do this once.
 
 ```bash
-nano key.json # paste the json key provide to you
+nano key.json # paste the json key provided to you
 cat ~/key.json | docker login -u _json_key --password-stdin https://us-central1-docker.pkg.dev
 ```
 
