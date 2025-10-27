@@ -1,5 +1,5 @@
 # Changelog
 
-## V1.0.1
+## 1.0.0
 
-Initial self host release
+- Initial self host release.

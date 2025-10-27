@@ -16,9 +16,8 @@ services:
       retries: 5
 
   backend:
-    ## Remember to version lock! i.e use v1.0.0 instead of latest
-    # i.e us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/web:v1.0.0
-    image: us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/mcp-backend:latest
+    ## Remember to version lock! i.e use 1.0.0 instead of latest
+    image: us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/mcp-backend:1.0.0
     env_file: .env
     # platform: linux/x86_64 # only needed if running on Mac
     depends_on:
@@ -26,9 +25,8 @@ services:
         condition: service_healthy
 
   web:
-    ## Remember to version lock! i.e use v1.0.0 instead of latest
-    # i.e us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/web:v1.0.0
-    image: us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/web:latest
+    ## Remember to version lock! i.e use 1.0.0 instead of latest
+    image: us-central1-docker.pkg.dev/rapidmcp-corp/mcp-apps/web:1.0.
     env_file: .env
     command: sh -c "npm run db:migrate && node apps/web/server.js"
     # platform: linux/x86_64 # only needed if running on Mac
