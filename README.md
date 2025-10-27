@@ -2,6 +2,8 @@
 
 https://rapid-mcp.com
 
+https://docs.rapid-mcp.com
+
 Self hosted edition of RapidMCP. 
 
 ## Background
